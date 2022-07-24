@@ -14,16 +14,4 @@ RSpec.describe do
     expect(kayak.credit_card_number).to eq("4242424242424242")
   end
 
-  # it 'can be rented for any number of hours' do
-  #   kayak = Boat.new(:kayak, 20)
-  #
-  #   expect(kayak.hours_rented).to eq(0)
-  #   kayak.add_hour
-  #   kayak.add_hour
-  #   kayak.add_hour
-  #
-  #   expect(kayak.hours_rented).to eq(3)
-  # end
-
-
 end
