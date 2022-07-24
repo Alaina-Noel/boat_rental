@@ -1,5 +1,4 @@
 require './lib/boat'
-require './lib/renter'
 
 RSpec.describe do
   it 'exists' do
